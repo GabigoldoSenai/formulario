@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+        <div class="form-box">
+            <form action="" class="form right">
+                <h1 style="margin: 0">Cadastrar</h1>
+                <label for="">Nome: 
+                    <input required type="text" id="nome" placeholder="Nome completo">
+                </label>
+                
+                
+        
+                <label for="">E-mail: 
+                    <input required type="email" id="email" placeholder="SeuEmail@email.com">
+                </label>
+                
+        
+                <label for="">Senha: 
+                    <input required maxlength="16" type="password" id="senha" placeholder="Crie sua senha">
+                </label>
+                
+                <button type="submit" onclick="validarFormulario()">Enviar</button>
+            </form>
+
+            
+        </div>
+
+    
+    <script src="app.js"></script>
+</body>
+</html> 
